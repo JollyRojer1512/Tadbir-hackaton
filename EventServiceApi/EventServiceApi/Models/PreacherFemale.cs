@@ -1,7 +1,6 @@
-﻿using EventApi.ViewModels;
-using System.ComponentModel.DataAnnotations;
+﻿using EventServiceApi.ViewModels;
 
-namespace EventApi.Models
+namespace EventServiceApi.Models
 {
     public class PreacherFemale : Preacher
     {

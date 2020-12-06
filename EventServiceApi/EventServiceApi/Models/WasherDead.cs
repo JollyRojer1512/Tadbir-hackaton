@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EventServiceApi.Models
 {
-    public class Preacher
+    public class WasherDead
     {
         [Key]
         public long Id { get; set; }
@@ -30,19 +30,18 @@ namespace EventServiceApi.Models
         public string District { get; set; }
 
 
-        public PreacherViewModel ConvertToViewModel()
+        public WasherDeadViewModel ConvertToViewModel()
         {
-            return new PreacherViewModel()
+            return new WasherDeadViewModel()
             {
-                PreacherId = Id,
-                PreacherFirstName = FirstName,
-                PreacherLastName = LastName,
-                PreacherRequiredPhoneNumber = RequiredPhoneNumber,
-                PreacherAdditionalPhoneNumber = AdditionalPhoneNumber,
-                PreacherCity = City,
-                PreacherDistrict = District
+                WasherDeadId = Id,
+                WasherDeadFirstName = FirstName,
+                WasherDeadLastName = LastName,
+                WasherDeadRequiredPhoneNumber = RequiredPhoneNumber,
+                WasherDeadAdditionalPhoneNumber = AdditionalPhoneNumber,
+                WasherDeadCity = City,
+                WasherDeadDistrict = District
             };
         }
-
     }
 }

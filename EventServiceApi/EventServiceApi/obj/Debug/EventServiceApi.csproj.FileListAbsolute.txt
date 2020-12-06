@@ -38,10 +38,10 @@ c:\users\fathulla\documents\visual studio 2015\Projects\EventServiceApi\EventSer
 c:\users\fathulla\documents\visual studio 2015\Projects\EventServiceApi\EventServiceApi\bin\System.Web.Http.WebHost.xml
 c:\users\fathulla\documents\visual studio 2015\Projects\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.dll
 c:\users\fathulla\documents\visual studio 2015\Projects\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.pdb
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\ApplicationInsights.config
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\csc.exe
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\roslyn\Microsoft.CSharp.Core.targets
@@ -84,6 +84,7 @@ C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventSer
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedpolyclinic.resources
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedcemetery.resources
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedpreacher.resources
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedtransport.resources
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.csproj.GenerateResource.Cache
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.dll
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.pdb

@@ -1,7 +1,7 @@
-﻿using EventApi.ViewModels;
+﻿using EventServiceApi.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
-namespace EventApi.Models
+namespace EventServiceApi.Models
 {
     public class Cemetery
     {

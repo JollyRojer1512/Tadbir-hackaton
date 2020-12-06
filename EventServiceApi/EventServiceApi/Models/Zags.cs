@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EventServiceApi.Models
 {
-    public class Polyclinic
+    public class Zags
     {
         [Key]
         public long Id { get; set; }
@@ -24,20 +24,21 @@ namespace EventServiceApi.Models
 
         public string District { get; set; }
 
-        public PolyclinicViewModel ConvertToViewModel()
+        public string Email { get; set; }
+
+        public string Website { get; set; }
+
+        public ZagsViewModel ConvertToViewModel()
         {
-            PolyclinicViewModel viewModel = new PolyclinicViewModel()
+            return new ZagsViewModel()
             {
-                PolyclinicId = Id,
-                PolyclinicName = Name,
-                RequiredPhoneNumber = RequiredPhoneNumber,
-                AdditionalPhoneNumber = AdditionalPhoneNumber,
-                PolyclinicCity = City,
-                PolyclinicDistrict = District
+                ZagsId = Id,
+                ZagsName = Name,
+                ZagsRequiredPhoneNumber = RequiredPhoneNumber,
+                ZagsAdditionalPhoneNumber = AdditionalPhoneNumber,
+                ZagsCity = City,
+                ZagsDistrict = District
             };
-
-            return viewModel;
         }
-
     }
 }

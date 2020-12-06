@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using EventApi.Models;
-using EventApi.ViewModels;
 using EventServiceApi.Models;
+using EventServiceApi.ViewModels;
 
 namespace EventServiceApi.Controllers
 {
@@ -126,22 +121,6 @@ namespace EventServiceApi.Controllers
             {
                 return InternalServerError();
             }
-        }
-
-        // DELETE: api/Preachers/5
-        [ResponseType(typeof(Preacher))]
-        public IHttpActionResult DeletePreacher(long id)
-        {
-            Preacher preacher = _eventApiContext.Preachers.Find(id);
-            if (preacher == null)
-            {
-                return NotFound();
-            }
-
-            _eventApiContext.Preachers.Remove(preacher);
-            _eventApiContext.SaveChanges();
-
-            return Ok(preacher);
         }
 
         protected override void Dispose(bool disposing)

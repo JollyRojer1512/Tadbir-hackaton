@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EventApi.ViewModels
+namespace EventServiceApi.ViewModels
 {
     public class CompanyViewModel
     {

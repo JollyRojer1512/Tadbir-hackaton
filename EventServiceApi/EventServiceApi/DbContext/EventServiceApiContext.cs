@@ -19,12 +19,14 @@ namespace EventServiceApi.Models
         {
         }
 
-        public System.Data.Entity.DbSet<EventApi.Models.Company> Companies { get; set; }
+        public System.Data.Entity.DbSet<EventServiceApi.Models.Company> Companies { get; set; }
 
-        public System.Data.Entity.DbSet<EventApi.Models.Polyclinic> Polyclinics { get; set; }
+        public System.Data.Entity.DbSet<EventServiceApi.Models.Polyclinic> Polyclinics { get; set; }
 
-        public System.Data.Entity.DbSet<EventApi.Models.Cemetery> Cemeteries { get; set; }
+        public System.Data.Entity.DbSet<EventServiceApi.Models.Cemetery> Cemeteries { get; set; }
 
-        public System.Data.Entity.DbSet<EventApi.Models.Preacher> Preachers { get; set; }
+        public System.Data.Entity.DbSet<EventServiceApi.Models.Preacher> Preachers { get; set; }
+
+        public System.Data.Entity.DbSet<EventServiceApi.Models.Transport> Transports { get; set; }
     }
 }

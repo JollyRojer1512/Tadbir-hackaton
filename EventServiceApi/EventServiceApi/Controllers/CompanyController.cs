@@ -4,9 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Web.Http;
 using System.Web.Http.Description;
-using EventApi.Models;
-using EventApi.ViewModels;
 using EventServiceApi.Models;
+using EventServiceApi.ViewModels;
 
 namespace EventServiceApi.Controllers
 {
