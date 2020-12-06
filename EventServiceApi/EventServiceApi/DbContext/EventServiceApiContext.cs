@@ -20,5 +20,11 @@ namespace EventServiceApi.Models
         }
 
         public System.Data.Entity.DbSet<EventApi.Models.Company> Companies { get; set; }
+
+        public System.Data.Entity.DbSet<EventApi.Models.Polyclinic> Polyclinics { get; set; }
+
+        public System.Data.Entity.DbSet<EventApi.Models.Cemetery> Cemeteries { get; set; }
+
+        public System.Data.Entity.DbSet<EventApi.Models.Preacher> Preachers { get; set; }
     }
 }

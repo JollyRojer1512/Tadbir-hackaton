@@ -80,6 +80,10 @@ C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventSer
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\System.Net.Http.Formatting.xml
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\System.Web.Http.xml
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\bin\System.Web.Http.WebHost.xml
-C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.csprojResolveAssemblyReference.cache
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.InitialCreate.resources
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedpolyclinic.resources
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedcemetery.resources
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.Migrations.addedpreacher.resources
+C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.csproj.GenerateResource.Cache
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.dll
 C:\Users\Fathulla\Documents\Visual Studio 2015\Projects\Tadbir-hackaton\EventServiceApi\EventServiceApi\obj\Debug\EventServiceApi.pdb
