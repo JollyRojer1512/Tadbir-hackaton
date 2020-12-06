@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="4dp"
+    android:background="#014441">
+
+    <TextView
+        android:id="@+id/subCategoryDafnTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Sub name"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/subCategoryDafnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/newTxt"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="#014441"
+        android:padding="6dp"
+        android:text="Kattalashtirish"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

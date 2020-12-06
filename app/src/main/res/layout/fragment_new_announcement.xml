@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32787f"
+    tools:context=".NewAnnouncementFragment">
+
+    <TextView
+        android:id="@+id/marhamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:padding="8dp"
+        android:text="Tadbir ilovasiga marhamat!"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/name_of_restaurant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_of_city"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="#fff"
+        android:hint="Shahar nomi"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColorHint="#636363"
+        app:layout_constraintBottom_toTopOf="@+id/name_of_restaurant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_of_restaurant"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:hint="Restoran nomi"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColorHint="#636363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_of_city" />
+
+    <EditText
+        android:id="@+id/district"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:hint="Tuman"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColorHint="#636363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_of_restaurant" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:hint="Address (ko'cha nomi)"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColorHint="#636363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/district" />
+
+    <EditText
+        android:id="@+id/phones"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Telefonlar"
+        android:inputType="phone"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColorHint="#636363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/address" />
+
+    <TextView
+        android:id="@+id/warningTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phones"
+
+        />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_shape"
+        android:text="E'lon berish"
+        android:textColor="#32787f"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/warningTxt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
