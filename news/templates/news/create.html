@@ -1,0 +1,21 @@
+{% extends 'main/doctype.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+
+    <div class="features">
+        <h1>Create form</h1>
+        <form method="post">
+            {% csrf_token %}
+
+            {{ form.title }}
+            {{ form.anons }}
+            {{ form.full_text }}
+            {{ form.date }}
+            <span>{{ error }}</span>
+            <button class="btn btn-success" type="submit">Submit</button>
+        </form>
+    </div>
+
+{% endblock %}

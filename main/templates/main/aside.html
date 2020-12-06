@@ -1,0 +1,26 @@
+{% load static %}
+
+
+<!-- <aside>
+    <span class="logo">
+        <i class="fas fa-eye"></i>Tadbir
+    </span>
+    <ul>
+        <a href="{% url 'index' %}"><li><i class="fas fa-home"></i> Home</li></a>
+        <a href="{% url 'about' %}"><li><i class="fas fa-address-card"></i> About</li></a>
+        <a href="{% url 'news_home' %}"><li><i class="fas fa-paper-plane"></i> News</li></a>
+        <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i> Add article</button></li></a>
+    </ul>
+</aside> -->
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <img src="{% static 'main/img/adam_logo.png' %}" alt="ADAM" class="adam">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Tadbir</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2" href="{% url 'index' %}"><i class="fas fa-home"></i>Главная</a>
+      <!-- <a class="p-2" href="{% url 'about' %}"><i class="fas fa-address-card"></i>About</a> -->
+      <a class="p-2" href="{% url 'news_home' %}"><i class="fas fa-paper-plane"></i>Объявления</a>
+      <!-- <a class="p-2 text-dark" href="{% url 'create' %}">Pricing</a> -->
+    </nav>
+    <a class="btn btn-outline-primary" href="">Войти</a>
+  </div>

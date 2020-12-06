@@ -1,0 +1,16 @@
+{% extends 'main/doctype.html' %}
+
+{% block title %}{{article.title}}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ article.title }}</h1>
+        <p>{{ article.anons }}</p>
+        <p>{{ article.full_text }}</p>
+        <p>{{ article.date }}</p>
+        <!-- <a href="{% url 'news-update' article.id %}" class="btn btn-info">Edit</a> -->
+        <!-- <a href="{% url 'news-delete' article.id %}" class="btn btn-danger">Delete</a> -->
+        <a href="{% url 'news_home' %}" class="btn btn-danger">Назад</a>
+
+    </div>
+{% endblock %}

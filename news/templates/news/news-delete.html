@@ -1,0 +1,15 @@
+{% extends 'main/doctype.html' %}
+
+{% block title %}Delete article{% endblock %}
+
+{% block content %}
+
+    <div class="features">
+        <h1>Delete article</h1>
+        <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-danger" type="submit">Delete</button>
+        </form>
+    </div>
+
+{% endblock %}

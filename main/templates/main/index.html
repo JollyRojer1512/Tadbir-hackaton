@@ -1,0 +1,22 @@
+{% extends 'main/doctype.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block aside %}
+    {% include 'main/aside.html' %}
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Tadbir</h1>
+        <p>Tadbir - платформа для показа социальных и социально-развлекательных услуг</p>
+        <button class="btn btn-warning">Contact us</button>
+
+        {% for el in obj %}
+            <p>
+                {{el}}
+            </p>
+        {% endfor %}
+
+    </div>
+{% endblock %}
